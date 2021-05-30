@@ -1,5 +1,10 @@
-//a[k++] = a[k]=4;k=k+1;                                          //union         NOT WORKING
-//a[++k] = k=k+1;a[k]=4;                                          //intersection  WORKING
+//a[k++] = a[k]=4;k=k+1;                                         
+//a[++k] = k=k+1;a[k]=4;   
+
+//TC => O(n) 
+//SC => O(1) 
+
+                                       
 #include<stdio.h> 
 
 void main()
